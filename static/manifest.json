@@ -1,0 +1,14 @@
+{
+    "short_name": "POS",
+    "name": "Đang tải",
+    "icons": [
+        {
+          "src": "./image/icon_app_mobile.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        }
+    ],
+    "display": "fullscreen",
+    "orientation": "landscape",
+    "theme_color": "#455A64"
+}

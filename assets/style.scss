@@ -1,0 +1,33 @@
+html {
+    overflow: hidden !important;
+}
+
+.BG {
+    //background-attachment: fixed;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: 100% 100% !important;
+}
+
+.UI_ListMessage{
+    top: 0;
+    right: 0;
+    position: fixed;
+    max-width: 300px;
+    z-index: 999;
+
+    .UI_ListMessage_Item {
+        padding: 15px;
+        transition: all 0.5s;
+        opacity: 0;
+        background: var(--v-box-base);
+        margin: 5px 0;
+        font-size: 15px;
+        transform: translate(50px, 0);
+        border-left: 5px solid var(--v-main-base);
+    }
+    .UI_ListMessage_Item_Show {
+        transform: translate(0px, 0);
+        opacity: 1;
+    }
+}
